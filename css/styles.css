@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.app-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  z-index: 10;
+  transition: all 0.2s;
+}
+.app-header.header-shadow {
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03),
+    0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+    0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
+    0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+}
+.app-header .app-header__content {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex: 1;
+  padding: 0 1.5rem;
+  height: 60px;
+}
+.app-header .app-header__content .app-header-left {
+  display: flex;
+  align-items: center;
+}
+.app-header .app-header__content .app-header-right {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+}
+.app-header .header-user-info > .widget-heading,
+.app-header .header-user-info > .widget-subheading {
+  white-space: nowrap;
+}
+.app-header .header-user-info > .widget-subheading {
+  font-size: 0.8rem;
+}
+.app-header__logo {
+  padding: 0 1.5rem;
+  height: 60px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  transition: width 0.2s;
+}
+.app-header__logo .logo-src {
+  height: 23px;
+  width: 97px;
+  background: url(assets/images/logo-inverse.png);
+}
+.app-header__menu,
+.app-header__mobile-menu {
+  display: none;
+  padding: 0 1.5rem;
+  height: 60px;
+  align-items: center;
+}
+.fixed-header .app-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.fixed-header .app-header .app-header__logo {
+  visibility: visible;
+}
+
+#sidebar {
+  width: 280px;
+  height: 1000px;
+  float: left;
+  position: flex;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+#sidebar span {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+#buttons {
+  border: 1px solid white;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  position: flex;
+  margin: 5px;
+}
+
+.prueba2 {
+  background-color: #3f6ad8;
+}
+.prueba3 {
+  background-color: #6c757d;
+}
+.prueba4 {
+  background-color: #3ac47d;
+}
+.prueba5 {
+  background-color: #16aaff;
+}
+.prueba6 {
+  background-color: #f7b924;
+}
+.prueba7 {
+  background-color: #d92550;
+}
+.prueba8 {
+  background-color: #eee;
+}
+.prueba9 {
+  background-color: #343a40;
+}
+.prueba10 {
+  background-color: #444054;
+}
+.prueba11 {
+  background-color: #794c8a;
+}
+.prueba12 {
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+.prueba13 {
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+.prueba14 {
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+}
+.prueba15 {
+  background-image: linear-gradient(
+      to bottom,
+      #323232 0%,
+      #3f3f3f 40%,
+      #1c1c1c 150%
+    ),
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(0, 0, 0, 0.25) 200%
+    ) !important;
+  background-blend-mode: multiply;
+}
+.prueba16 {
+  background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+.prueba17 {
+  background-image: linear-gradient(to right, #141e30, #243b55);
+}
+.prueba18 {
+  background-image: linear-gradient(
+    45deg,
+    #ff9a9e 0%,
+    #fad0c4 99%,
+    #fad0c4 100%
+  );
+}
+.prueba19 {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.prueba20 {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.prueba21 {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.prueba22 {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.prueba23 {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.prueba24 {
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+.prueba25 {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.prueba26 {
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.prueba27 {
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+.prueba28 {
+  background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #30c7ec 47%,
+    #46aef7 100%
+  );
+}
+.prueba29 {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.prueba30 {
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+.prueba31 {
+  background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+.prueba32 {
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+.prueba33 {
+  background-image: linear-gradient(
+    to right,
+    #f78ca0 0%,
+    #f9748f 19%,
+    #fd868c 60%,
+    #fe9a8b 100%
+  );
+}
+.prueba34 {
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+.prueba35 {
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+.prueba36 {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.prueba37 {
+  background-image: linear-gradient(to bottom, #00b09b, #96c93d);
+}
